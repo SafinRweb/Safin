@@ -25,12 +25,6 @@
     .font-DMC {
         @apply font-DMC text-5xl;
     }
-    .btn {
-        @apply px-4 py-2 rounded-lg text-white font-Sackers-Light;
-        background-color: #0A0A0A;
-        border: white 2px solid;
-        transition: background-color 0.3s ease;
-    }
 }
 
 main {
@@ -38,4 +32,12 @@ main {
     width: 100%;
     /* background-color: #0A0A0A; */
     overflow-x: hidden;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #880808;
+    position: absolute;
+    left: 0;
+    top: -100;
 }

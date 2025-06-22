@@ -1,4 +1,5 @@
-import { NavLink } from "react-router";
+import { Link } from "react-router";
+import GsapBtn from "./GSAPBtn";
 
 const Navbar = () => {
     return (
@@ -8,10 +9,10 @@ const Navbar = () => {
                     <span className="font-DMC text-bloody-red">Safin</span>
                 </div>
                 <div className="flex gap-3">
-                    <NavLink to="/" className="btn">Home</NavLink>
-                    <NavLink to="/Work" className="btn">Work</NavLink>
-                    <NavLink to="/About" className="btn">About</NavLink>
-                    <NavLink to="/Contact" className="btn">Contact</NavLink>
+                    <Link to="/"><GsapBtn>Home</GsapBtn></Link>
+                    <Link to="/Work"><GsapBtn>Work</GsapBtn></Link>
+                    <Link to="/About"><GsapBtn>About</GsapBtn></Link>
+                    <Link to="/Contact"><GsapBtn>Contact</GsapBtn></Link>
                 </div>
             </div>
         </nav>
