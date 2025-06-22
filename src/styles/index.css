@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+    --color-bloody-red: #880808;
+    --color-jet-black: #0A0A0A;
+    --color-soft-white: #F5F5F5;
+    --font-DMC: "DMC5", "sans-serif"; 
+    --font-Sackers-Light: "Sackers-Light", "sans-serif";
+    --font-Sackers-Heavy: "Sackers-Heavy", "sans-serif";
+}
+
+@font-face {
+    font-family: DMC5;
+    src: url("../assets/Font/DMC5Font.otf") format("opentype");
+}
+@font-face {
+    font-family: Sackers-Light;
+    src: url("../assets/Font/sackersgothicstd-light.otf") format("opentype");
+}
+@font-face {
+    font-family: Sackers-Heavy;
+    src: url("../assets/Font/sackersgothicstd-heavy.otf") format("opentype");
+}
+@layer components {
+    .font-DMC {
+        @apply font-DMC text-5xl;
+    }
+    .btn {
+        @apply px-4 py-2 rounded-lg text-white font-Sackers-Light;
+        background-color: #0A0A0A;
+        border: white 2px solid;
+        transition: background-color 0.3s ease;
+    }
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    /* background-color: #0A0A0A; */
+    overflow-x: hidden;
+}
