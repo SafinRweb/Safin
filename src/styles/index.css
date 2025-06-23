@@ -25,6 +25,9 @@
     .font-DMC {
         @apply font-DMC text-5xl;
     }
+    .font-DMC-Btn {
+      @apply font-DMC text-3xl;
+    }
 }
 
 main {
@@ -40,4 +43,10 @@ main {
     position: absolute;
     left: 0;
     top: -100;
+}
+.glow-effect {
+  transition: box-shadow 0.3s ease;
+}
+.glow-effect:hover {
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.5);
 }
