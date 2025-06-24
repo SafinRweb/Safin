@@ -24,15 +24,15 @@ const Footer = () => {
         </div>
       </div>
       {/* Huge Safin bottom left */}
-      <div className="absolute left-0 bottom-0 select-none pointer-events-none z-0">
+      <div className="absolute left-0 bottom-0 select-none pointer-events-none z-0 flex flex-row items-end">
         <span className="text-bloody-red text-[18vw] leading-none font-DMC opacity-90 pl-2 pb-0 block" style={{lineHeight: 0.85}}>Safin</span>
       </div>
       {/* Bottom Section: Top bar + Info bar stacked above Safin */}
       <div className="w-full flex flex-col items-stretch z-10 mb-[18vw]">
         {/* Top Bar: Github and LinkedIn */}
         <div className="flex flex-row justify-between items-center px-8 text-base font-semibold mb-1 font-Sackers-Light">
-          <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="hover:underline font-Sackers-Heavy">Github</a>
-          <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="hover:underline font-Sackers-Heavy">LinkedIn</a>
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="hover:underline font-Sackers-Heavy text-bloody-red">Github</a>
+          <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="hover:underline font-Sackers-Heavy text-bloody-red">LinkedIn</a>
         </div>
         {/* Info Bar */}
         <div className="w-full border-t border-black flex flex-row justify-between items-center px-8 py-3 text-xs md:text-base font-medium bg-white font-Sackers-Light">

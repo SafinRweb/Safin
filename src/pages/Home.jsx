@@ -1,3 +1,5 @@
+
+
 const Home = () => {
   return (
     <section className="h-screen bg-soft-white">
